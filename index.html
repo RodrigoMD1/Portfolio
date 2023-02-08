@@ -74,7 +74,11 @@
                     
                     <div>
                         <h2 class="about__subtitle">Soy Rodrigo Martinez Duvivier</h2>
-                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                        <p class="about__text">Sobre mi:
+
+                            Soy un estudiante de desarrollo full-stack y recientemente terminé un curso de JavaScript. Antes de eso, completé mi formación en desarrollo web. Próximamente, estoy por iniciar un tercer curso en React. También tengo el plan de explorar la programación back-end con Python o PHP. Me destaco en el front-end, ya que soy perfeccionista y me gusta investigar hasta lograr lo que quiero. Soy capaz de organizarme rápidamente y liderar a otros para lograr soluciones rápidas y efectivas.
+                            
+                            Aunque tengo experiencia laboral previa, no está relacionada con el mundo de la tecnología. Mi objetivo es aprender habilidades nuevas y crecer profesionalmente, así como tener mis propios proyectos en el futuro.</p>           
                     </div>                                   
                 </div>
             </section>
@@ -172,16 +176,18 @@
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
                 <h2 class="section-title">Contacto</h2>
-
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
-                    </form>
+                  <form action="https://formsubmit.co/rodrigo.martinez224@gmail.com" method="POST"  class="contact__form">
+                    <input type="text" id="name" name="name" placeholder="Nombre" class="contact__input">
+                    <input type="email" id="email" name="email" placeholder="Email" class="contact__input">
+                    <input type="text" id="name" name="name" placeholder="Asunto" class="contact__input">
+                    <textarea id="message" name="message" cols="0"  placeholder="Comentario"rows="10" class="contact__input"></textarea>
+
+                    <input type="submit" value="Enviar" class="contact__button button">
+                  </form>
                 </div>
-            </section>
+              </section>
+            
         </main>
 
         <!--===== FOOTER =====-->
@@ -200,6 +206,6 @@
         <script src="https://unpkg.com/scrollreveal"></script>
 
         <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
+        <script src="./js/main.js"></script>
     </body>
 </html>
